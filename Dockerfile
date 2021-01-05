@@ -19,7 +19,7 @@ COPY . /var/www/html/
 COPY default.conf /etc/apache2/sites-available/000-default.conf
 COPY default.conf /etc/apache2/sites-enabled/000-default.conf
 # install dependencies
-#RUN composer install
+RUN composer install
 EXPOSE 80
 
 
