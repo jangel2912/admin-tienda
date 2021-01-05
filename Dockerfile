@@ -28,4 +28,4 @@ RUN chmod 777 -R /var/www/html/storage/ && \
     echo CustomLog "/dev/stdout" access_log && \
     chown -R www-data:www-data /var/www/html/ && \
     a2enmod rewrite
-#COPY .env /var/www/html/.env
+#COPY .env /var/www/html/.env.
