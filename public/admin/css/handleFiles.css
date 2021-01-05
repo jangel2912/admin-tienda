@@ -1,0 +1,36 @@
+.content-files {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+}
+
+.content-files input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.previews .preview {
+    width: 95px;
+    height: 95px;
+    background-color: #fff;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.previews .preview:first-child {
+    width: 200px;
+    height: 200px;
+}

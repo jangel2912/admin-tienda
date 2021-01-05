@@ -1,0 +1,53 @@
+#button-save {
+    height: 50px;
+    background-color: #fff;
+}
+
+.fixed {
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    width: calc(100% - 100px);
+    padding: 8px 40px 0 0;
+    border-bottom: solid 1px #ccc;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+    z-index: 600;
+}
+
+#content-images {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 5px;
+}
+
+.image-content {
+    position: relative;
+}
+
+.preview {
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+}
+
+.required {
+	color: #ff0000;
+}
+
+a.option {
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    background-color: lightgrey;
+}
+
+.option {
+    background-color: lightgrey;
+}
+
+a.has_images {
+    color: white;
+    background-color: green;
+}

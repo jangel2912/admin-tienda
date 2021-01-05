@@ -1,0 +1,138 @@
+/* MENU */
+.nav-pills {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-pills > li > a {
+    color: inherit;
+    padding: 15px 30px;
+    background-color: #f5f5f5;
+    border: 1px solid #eaeaea;
+}
+
+.nav-pills > li > a.active,
+.nav-pills > li > a:focus,
+.nav-pills > li > a:hover {
+    color: #76838f;
+}
+
+i.fas {
+    font-size: 1.8rem;
+}
+
+.CodeMirror {
+    height: 200px;
+    border: solid 1px #ddd;
+}
+
+.img-thumbnail.favicon {
+    min-height: 34px;
+}
+
+.local_domain {
+    padding-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: none;
+    text-align: right;
+}
+
+.shop {
+    width: 90px !important;
+    padding-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: none;
+}
+
+.local_domain_shop {
+    display: flex;
+}
+
+.small, small {
+    font-size: 100% !important;
+    color: gray !important;
+}
+
+.table-schedule {
+    margin-top: 30px;
+}
+
+#errorMessages {
+    margin-top: 20px;
+}
+
+.settings-menu-active {
+    background: #fff !important;
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+ion-icon {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.divider-line-right {
+    border-right: 1px solid #e7e7e7;
+}
+.divider-line-bottom {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.load-logo {
+    font-weight: 700;
+    cursor: pointer;
+    color: #337ab7;
+    margin-top: 10px;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.favicon {
+    width: 100%;
+    max-width: 50px;
+}
+
+.preview-logo {
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.options-logo {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.delete-image {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #62cb31;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.logo-settings-container {
+    position: relative;
+}

@@ -1,0 +1,31 @@
+<style>
+    body{padding-top:0px;}
+    /* General Trasition */
+    .gradient .login-decorator .button-step{transition-duration: 0.8s;}
+    .content-login{width:100%;min-height:100vh;background:#fff;}
+    .content-login .login{padding: 3rem;padding-top: 7rem;-ms-flex-preferred-size: 10%;flex-basis: 10%;-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;text-align: center;background: #fff;}
+    /*.content-login .login a img{background:#2b3492;padding:10px;}*/
+    .content-login .login h2{margin-bottom: 3rem;margin-top: 3rem;text-transform: uppercase;font-weight: 200;font-size: 1.6em;color: #999;}
+    .content-login .login label{text-align:left; display: block;color: #999;font-size: 0.9em;text-transform: uppercase;margin-bottom: 3px;font-weight: 500;}
+    .content-login .login input{ border-color: #bbb; padding:15px;    border: solid 1px #bbb;width: 100%;margin-bottom: 10px;}
+    .login .button-login{width: 100%;font-size: 1.1rem;padding: 15px;position: relative;font-weight: 400;border: none;background-color:#2b3492;border: 1px solid #2b3492;color: #fff;padding: 15px;cursor: pointer;display: inline-block;margin: 0;text-align: center;text-shadow: none;cursor: pointer;border-radius: 2px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;letter-spacing: auto;white-space: nowrap;text-transform: none;text-decoration: none;-webkit-appearance: none;transition: all .2s ease-in-out;}
+    .login .button-login:hover{text-decoration: none;background-color: #454eb3;border-color: #454eb3;color: #fff;box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), inset 0 1px 2px 0 transparent;}
+    .login .button-login .text-login{font-size:1.8rem;}
+    .login .links-login {margin-top: 10px;text-align: center;}
+    .login .links-login a{font-size: 1.1em;color: #aaa;}
+    /*.gradient{background-color:#CDFFF6;color: #fff; min-height:100vh;}*/
+    .gradient{background-image: url('/admin/img/shop.jpg');background-position: center;
+        background-size: cover;color: #fff; min-height:100vh;}
+    .gradient .login-decorator{/*padding-top: calc(140px + 2.5rem);*/padding-top: calc(130px + 2.5rem);}
+    .gradient .login-decorator h3{font-weight: 200;font-size: 1.4em;margin-bottom: 3rem;opacity: .7; /*color:#fff;*/ color:#1a1a1a;}
+    .gradient .login-decorator h2{font-weight: 600;font-size: 1.8em;margin-bottom: 10px;}
+    .gradient .login-decorator h2 a{/*color: #fff;*/ color:#1a1a1a; text-decoration: none;border-bottom: 1px solid rgba(255,255,255,.4);padding-bottom: 1px;line-height: 1.5em;}
+    .gradient .login-decorator p{color:#333333; opacity: .8;line-height: 1.4em;font-weight: 400;font-size: 1rem;margin-bottom:20px;}
+    .gradient .login-decorator .button-step{border:solid 1px #34c670; padding:18px; display:inline-block; text-align:center; font-weight: bold;border-radius: 7px;/*background-color: #fff;color: #39805a;*/ color:#34c670; text-decoration:none; font-size:1.1rem;}
+    .gradient .login-decorator .button-step:hover{opacity:0.8;}
+    .image-gradient{position: absolute;bottom: 0;right: 0px;width: 59%;height: 130px;background-size: cover;transform: rotateY(200grad); background-image:url('/admin/img/comercios_vendty.svg'); }
+    .icon-step{font-size:24px;}
+    @media only screen and (max-width: 767px){
+        .content-login .login{padding: 2rem;padding-top: calc(1.5rem);}
+    }
+</style>

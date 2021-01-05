@@ -1,0 +1,27 @@
+.seo-container,
+.payment-container {
+    border: solid 1px #bbb;
+    border-radius: 10px;
+    position: relative;
+}
+
+.titles {
+    display: block;
+    background-color: white;
+    padding: 0 8px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+a {
+    float: none;
+}
+
+textarea {
+    resize: none;
+}

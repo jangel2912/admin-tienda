@@ -1,0 +1,370 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+}
+
+.control-label {
+    text-align: left !important;
+}
+
+.panel-heading h3 {
+    display: inline-block;
+}
+
+.panel-heading a {
+    float: right;
+    margin-top: 20px;
+}
+
+/* MAIN MENU */
+.main-menu {
+    width: 100px;
+    height: 100%;
+    background-color: #505050;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 1050;
+}
+
+.main-menu a {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    border-top: solid 1px #403F3F;
+    padding-top: 10px;
+}
+
+.main-menu a:first-child {
+    border: none;
+}
+
+.main-menu h5 {
+    font-size: 12px !important;
+}
+
+.main-menu a:hover,
+.main-menu a:active,
+.main-menu a.active,
+.main-menu a:focus {
+    text-decoration: none;
+    background-color: rgba(114, 173, 156, 0.13);
+}
+
+.main-menu a.active {
+    border-left: 2px solid #62cb31;
+}
+
+.main-menu img.icons {
+    width: 26%;
+}
+
+.main-menu img.logo {
+    width: 80%;
+}
+
+/* NAVBAR */
+.navbar-default {
+    background-color: #fff;
+    border-radius: 0;
+    height: 50px;
+}
+
+.navbar-default img {
+    width: 200%;
+}
+
+.navbar-default .logout {
+    font-weight: 500;
+    background-color: rgba(80, 80, 80, 0.7);
+}
+
+.navbar-default .logout a,
+.navbar-default .logout a:hover,
+.navbar-default .logout a:focus,
+.navbar-default .logout a:active {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-right li {
+    width: 40px;
+}
+
+.navbar-default .navbar-right .logout {
+    width: 80px;
+}
+
+.navbar-default .navbar-right .logout img {
+    width: 30%;
+}
+
+/* sWITCH */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+    /* top: 17px; */
+    top: 0;
+
+}
+
+.switch input {
+    display:none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #5cb85c;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #5cb85c;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+.info-module {
+    color: #929292;
+    width: calc(100% - 100px);
+    height: 80px;
+    background-color: #fff;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 2px 10px 0 10px;
+}
+
+/* LEYENDAS */
+.info-leyenda {
+    display: none;
+    border: solid 1px #ddd;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.icon-leyenda {
+    color: #5ca745;
+    cursor: pointer;
+}
+
+label {
+    font-size: 13px;
+    font-weight: normal !important;
+}
+
+.panel-default > .panel-heading {
+    background-color: #fff;
+    border: none;
+    padding-bottom: 0;
+}
+
+.panel-default > .panel-body {
+    padding-top: 0;
+}
+
+.panel-default > .panel-body > hr {
+    margin-top: 0;
+}
+
+.small, small {
+    font-size: 100% !important;
+    color: gray !important;
+}
+
+.control-label {
+    font-weight: bold !important;
+}
+
+.svg-positions a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+.svg-positions a:hover {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+.svg-positions {
+    background-color: #ECF9ED;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.flecha-right {
+    width:0px;
+    height:0px;
+    border-bottom:25px solid transparent;  /* izquierda flecha */
+    border-top:25px solid transparent; /* derecha flecha */
+    border-left:25px solid #5DAE56; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+}
+
+#loader {
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20%;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#load-logo .options {
+    width: 30px;
+}
+
+#load-logo .options li, .slider-content .options li {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#load-logo .options li button, .slider-content .options li button {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    outline: none;
+}
+
+#load-logo {
+    position: relative;
+}
+
+#load-logo .options, .slider-content .options {
+    list-style: none;
+    height: 20px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 34px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#upload {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img-thumbnail {
+    width: 100%;
+}
+
+.required {
+	color: #ff0000;
+}
+
+.modules-header {
+    padding-top: 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.modules-header h4 {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.modules-header h5 {
+    font-weight: 100;
+}
+
+.bg-dark {
+    background-color: #4d4d4d !important;
+}
+
+#notification {
+    width: 45px;
+}
+
+#notification a img {
+    max-width: 20px;
+}
+
+.no-borders {
+    border: none;
+}

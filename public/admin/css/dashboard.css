@@ -1,0 +1,62 @@
+.info-card {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+}
+
+.info-card .info-card-icon {
+	font-size: 45px;
+	text-align: center;
+	width: 100px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-card .content {
+	text-align: left;
+	margin-left: 130px;
+}
+
+.info-card.blue {
+	color: #fff;
+	background-color: #5d9cec;
+}
+
+.info-card.indigo {
+	color: #fff;
+	background-color: #7266ba;
+}
+
+.info-card.green {
+	color: #fff;
+	background-color: #37bc9b;
+}
+
+.info-card.green-light .info-card-icon {
+	color: #fff;
+	background-color: #37bc9b;
+}
+
+
+#chart-circle-container {
+	text-align: center;
+}
+
+#chart-circle-container span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 48%;
+	width: 100%;
+	margin-left: -50%;
+	height: 30px;
+	margin-top: -15px;
+	font-size: 35px;
+}

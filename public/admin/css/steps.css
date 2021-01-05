@@ -1,0 +1,163 @@
+.step-container {
+    border: solid 1px #bbb;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.step-content {
+    display: block;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.steps .step {
+    color: #bbb;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: solid 4px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.steps .line-status {
+    width: 25%;
+    border: dashed 2px #bbb;
+    top: 15px;
+}
+
+.steps .step.active {
+    color: #5ca745;
+}
+
+.steps .line-status.active {
+    border: solid 2px #5ca745;
+}
+
+.pagination {
+    font-size: 8rem;
+    position: absolute;
+    top: 28%;
+}
+
+.pagination a {
+    color: #bbb;
+}
+
+.pagination a:hover {
+    color: #5ca745;
+}
+
+.pagination.left {
+    left: 4%;
+}
+
+.pagination.right {
+    right: 4%;
+}
+
+#tutorial {
+    display: inline-block;
+    margin: 0;
+    float: right;
+    margin-right: 43px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background: #5ca745;
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: url(https://pos.vendty.com/uploads/iconos/Blanco/icono_blanco-35.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+#tutorial:after {
+    content: 'Videotutorial de configuración';
+    color: #000;
+    text-align: center;
+    font-size: 11px;
+    position: absolute;
+    right: 27px;
+    bottom: -38px;
+    width: 100px;
+}
+
+.panel-body {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.panel-heading {
+    padding-top: 25px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.panel-heading h4 {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.panel-heading h5 {
+    font-weight: 100;
+}
+
+.panel.panel-default {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-group .panel-heading+.panel-collapse > .list-group,
+.panel-group .panel-heading+.panel-collapse > .panel-body {
+    border: none;
+}
+
+.panel-group {
+    margin-bottom: 0;
+}
+
+.preview-template {
+    height: 180px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+}
+
+.required {
+	color: #ff0000;
+}
+
+.local_domain {
+    padding-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: none;
+    text-align: right;
+}
+
+.shop {
+    width: 90px !important;
+    padding-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: none;
+}
+
+.local_domain_shop {
+    display: flex;
+}
+
+.row {
+    margin: 0;
+}
