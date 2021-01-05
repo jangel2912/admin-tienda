@@ -1,5 +1,6 @@
-#FROM newdeveloper/apache-php
+#FROM php:7.3-apache
 FROM php:7.3-apache-stretch
+# intialize the machine with required apt-get packages and php extensions
 RUN apt-get update && apt-get install -y libpng-dev zip unzip wget zlib1g-dev libicu-dev libzip-dev
 RUN docker-php-ext-install mysqli pdo_mysql zip exif
 RUN apt-get install -y \
